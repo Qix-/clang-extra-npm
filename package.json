@@ -1,0 +1,16 @@
+{
+	"name": "clang-extra",
+	"version": "0.1.0",
+	"scripts": {
+		"preinstall": "./install-clang-extra.sh"
+	},
+	"bin": {
+		"clang-tidy": "./build/bin/clang-tidy",
+		"clang-apply-replacements": "./build/bin/clang-apply-replacements",
+		"clang-query": "./build/bin/clang-query",
+		"clang-rename": "./build/bin/clang-rename",
+		"pp-trace": "./build/bin/pp-trace",
+		"tool-template": "./build/bin/tool-template",
+		"modularize": "./build/bin/modularize"
+	}
+}
